@@ -1,0 +1,384 @@
+{
+  "settings": {
+    "name": "Site-09-19_1828",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "Sleek",
+      "title": "Sleek",
+      "styling": {}
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.10.10",
+    "siteFonts": [],
+    "uniqCompNum": 9,
+    "versionPublish": "4.10.10"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            "&.mbr-navbar--auto-collapse.mbr-navbar--open .mbr-navbar__menu": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">SAMPLE PAGE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-secondary-outline\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Sleek",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a data-app-btn=\"true\" class=\"navbar-brand\" href=\"\" data-app-selector=\".mbr-brand__name a\">Sleek</a>",
+          "alias": "sleek/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": "1",
+            "paddingBottom": 0,
+            "showBullets": false,
+            "bgColor": "#ffffff",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-1211-2000x3000.png",
+                "active": true,
+                "showText": true,
+                "showCite": true,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "cite": "- John Doe<span>ABC Company</span>",
+                "text": "По статистике видно, что основной трафик – с мобильных устройств.  И скорей всего это часть этих посетителей просто теряется,  из-за ужасно долгой загрузки сайта !<br>"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "sleek/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-0",
+          "_styles": {
+            "P": {
+              "font-size": "30px"
+            }
+          }
+        },
+        {
+          "_styles": {},
+          "_params": {
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "src": "images/slide3.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400
+            },
+            "video": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "src": "https://www.youtube.com/watch?v=fo1T_DkeSqY"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "alias": "sleek/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "video2",
+          "_anchor": "video2-2"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "showSubTitles": true,
+            "showArticles": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/sleek/components/_images/bg/2.jpg",
+            "parallax": false,
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "header": "CHECK WHAT WE ARE CAPABLE OF",
+          "caption": "Suspendisse7 egestas mattis rhoncus pellen tesque euismod erat at posuere molestie lorem lectus interdum augue",
+          "header1": "Sed commodo suscipit",
+          "article1": "Sed commodo suscipit neque et suscipit. Cras feugiat porttitor libero sed finibus. Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt ligula.",
+          "header2": "Maecenas ut dapibus",
+          "article2": "Sed commodo suscipit neque et suscipit. Cras feugiat porttitor libero sed finibus. Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt ligula.",
+          "header3": "Varius molestie nec",
+          "article3": "Sed commodo suscipit neque et suscipit. Cras feugiat porttitor libero sed finibus. Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt ligula.",
+          "media": {
+            "image": {
+              "active": true,
+              "class": "img-responsive",
+              "src": "@PROJECT_PATH@/assets/images/1.jpg"
+            }
+          },
+          "media2": {
+            "image": {
+              "active": true,
+              "class": "img-responsive",
+              "src": "@PROJECT_PATH@/assets/images/2.jpg"
+            }
+          },
+          "media3": {
+            "image": {
+              "active": true,
+              "class": "img-responsive",
+              "src": "@PROJECT_PATH@/assets/images/3.jpg"
+            }
+          },
+          "alias": "sleek/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-3"
+        },
+        {
+          "_params": {
+            "firstType": "default",
+            "secondType": "default",
+            "thirdType": "default",
+            "fourthType": "default",
+            "showMainTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "lineColor": "#3498db",
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/sleek/components/_images/photo-3.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#222222",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "mainTitle": "CHOOSE YOUR BEST PLAN",
+          "text": "Suspendisse egestas mattis rhoncus pellen tesque euismod erat at posuere molestie lorem lectus interdum augue",
+          "title1": "<strong>Basic</strong>",
+          "title2": "<strong>Standard</strong>",
+          "title3": "<strong>Premium<span class=\"label label-success\">Best Value!</span></strong>",
+          "title4": "<strong>Ultimate</strong>",
+          "cents1": "<span>77</span>",
+          "cents2": "<span>77</span>",
+          "cents3": "<span>77</span>",
+          "cents4": "<span>77</span>",
+          "price1": "$9<span mbr-html=\"cents1\" data-app-edit=\"content\" data-app-placeholder=\"0\" class=\"price-cents\"></span>",
+          "price2": "$19<span mbr-html=\"cents2\" data-app-edit=\"content\" data-app-placeholder=\"0\" class=\"price-cents\"></span>",
+          "price3": "$29<span mbr-html=\"cents3\" data-app-edit=\"content\" data-app-placeholder=\"0\" class=\"price-cents\"></span>",
+          "price4": "$49<span mbr-html=\"cents4\" data-app-edit=\"content\" data-app-placeholder=\"0\" class=\"price-cents\"></span>",
+          "period1": "per month",
+          "period2": "per month",
+          "period3": "per month",
+          "period4": "per month",
+          "list1": "<ul class=\"list-group\"><li class=\"list-group-item\">5 Projects</li><li class=\"list-group-item\">5 GB of Storage</li><li class=\"list-group-item\">Up to 100 Users</li><li class=\"list-group-item\">10 GB Bandwidth</li><li class=\"list-group-item\">Security Suite</li><li class=\"list-group-item\"></li></ul>",
+          "list2": "<ul class=\"list-group\"><li class=\"list-group-item\">10 Projects</li><li class=\"list-group-item\">10 GB of Storage</li><li class=\"list-group-item\">Up to 250 Users</li><li class=\"list-group-item\">25 GB Bandwidth</li><li class=\"list-group-item\">Security Suite</li><li class=\"list-group-item\"></li></ul>",
+          "list3": "<ul class=\"list-group\"><li class=\"list-group-item\">Unlimited</li><li class=\"list-group-item\">50 GB of Storage</li><li class=\"list-group-item\">Up to 1000 Users</li><li class=\"list-group-item\">100 GB Bandwidth</li><li class=\"list-group-item\">Security Suite</li><li class=\"list-group-item\"></li></ul>",
+          "list4": "<ul class=\"list-group\"><li class=\"list-group-item\">Unlimited</li><li class=\"list-group-item\">150 GB of Storage</li><li class=\"list-group-item\">Unlimited</li><li class=\"list-group-item\">500 GB Bandwidth</li><li class=\"list-group-item\">Security Suite</li><li class=\"list-group-item\"></li></ul>",
+          "button1": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-info\" href=\"#\">Sign Up Now!</a>",
+          "button2": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-info\" href=\"#\">Sign Up Now!</a>",
+          "button3": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-info\" href=\"#\">Sign Up Now!</a>",
+          "button4": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-info\" href=\"#\">Sign Up Now!</a>",
+          "alias": "sleek/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-4"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/sleek/components/_images/bg/2.jpg",
+            "parallax": false,
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgColorRadio": true,
+            "bgColor": "#3498DB",
+            "overlay": false,
+            "overlayColor": "#000000",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "src": "@PROJECT_PATH@/assets/images/photo-4.png"
+            },
+            "video": {
+              "active": false,
+              "src": "https://www.youtube.com/watch?v=fo1T_DkeSqY",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Resposive design for all devices",
+          "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac facilisis ante. Praesent gravida tempus suscipit. Praesent vel sem id ligula malesuada vehicula at id orci. In sem quam, semper id fringilla sed, sodales a ante. Ut molestie a lorem in luctus. Suspendisse dignissim leo quis purus mollis fermentum.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-left btn-white\" href=\"https://mobirise.com\">Learn More</a>",
+          "alias": "sleek/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-8"
+        },
+        {
+          "_params": {
+            "showText": true,
+            "outside": false,
+            "bgColor": "#252525"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/2.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "alias": "sleek/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-7"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f0f0f0",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-googleplus\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"fa fa-google-plus\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-pinterest\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-github\" title=\"GitHub\" target=\"_blank\" href=\"https://github.com/Mobirise\"><i class=\"socicon socicon-github\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-behance\" title=\"Behance\" target=\"_blank\" href=\"https://www.behance.net/Mobirise\"><i class=\"socicon socicon-behance\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-tumblr\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-linkedin\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-android\" title=\"Google Play\" target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=com.mobirise.mobirise\"><i class=\"socicon socicon-android\"></i></a>",
+          "alias": "sleek/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-6"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showButtons": true,
+            "icon1": "fa fa-paper-plane-o",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/sleek/components/_images/photo-3.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#3498DB",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Subscribe to our newsletter to receive latest news & updates",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn intro-newsletter-button btn btn-primary newsletter-btn\"><i class=\"fa fa-paper-plane-o\"></i></a>",
+          "form": {
+            "action": "kroko2970@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email Address..."
+              }
+            }
+          },
+          "alias": "sleek/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-5"
+        }
+      ]
+    }
+  }
+}
